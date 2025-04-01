@@ -1,5 +1,5 @@
 from flask import Flask, request,render_template
-from Model import SpellCheckerModule
+from model3 import SpellCheckerModule
 
 app = Flask(__name__)
 spell_checker_module = SpellCheckerModule()
